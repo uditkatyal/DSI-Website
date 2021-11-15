@@ -180,12 +180,14 @@ html {
 /* product-services */
 
 .product-services-page {
+  height: 600px;
   margin-top: 6rem;
 }
 
 .product-services-page h1 {
+  font-size: 40px;
   text-align: center;
-  margin: 1rem 0;
+  margin: 5rem 0;
 }
 .product-grid {
   display: flex;
@@ -219,13 +221,15 @@ html {
 
 .footer-section {
   margin-top: 5rem;
-  margin-left: 1.5rem;
   display: flex;
   width: 100%;
 }
 
-.footer-section {
-  /* margin-left: 5rem; */
+.footer-section > div {
+  flex: 1 1 300px;
+}
+.details {
+  margin-left: 2rem;
 }
 .details img {
   width: 55px;
@@ -233,7 +237,6 @@ html {
 .details span {
   position: absolute;
   font-size: 0.5rem;
-  /* width: 60px; */
 }
 .details p {
   margin-top: 1rem;
@@ -241,9 +244,6 @@ html {
 .contacts h3 {
   /* margin: 0.9rem 0; */
   margin-bottom: 1rem;
-}
-.footer-section > div {
-  flex: 33.33%;
 }
 
 .partners {
