@@ -287,9 +287,20 @@ body {
     width: 220px;
   }
   .contacts {
-    margin-top: 35px;
+    margin-top: 30px;
+  }
+  .contacts p {
+    margin-top: -18px;
   }
   .partners {
     margin-top: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .home-content {
+    order: 2;
+  }
+  .illustration2 {
+    order: 1;
   }
 }
