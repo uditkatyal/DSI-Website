@@ -180,7 +180,6 @@ html {
 /* product-services */
 
 .product-services-page {
-  height: 600px;
   margin-top: 6rem;
 }
 
@@ -220,13 +219,13 @@ html {
 /* footer section */
 
 .footer-section {
-  margin-top: 5rem;
+  margin-top: 8rem;
   display: flex;
   width: 100%;
 }
 
 .footer-section > div {
-  flex: 1 1 300px;
+  flex: 33.3333%;
 }
 .details {
   margin-left: 2rem;
@@ -277,7 +276,6 @@ html {
 }
 @media (max-width: 768px) {
   .footer-section {
-    width: 100px;
     flex-direction: column;
   }
 }
@@ -292,12 +290,14 @@ html {
   }
   .contacts {
     margin-top: 30px;
+    margin-left: 2rem;
   }
   .contacts p {
     margin-top: -18px;
   }
   .partners {
     margin-top: 25px;
+    margin-left: 2rem;
   }
 }
 @media (max-width: 1000px) {
