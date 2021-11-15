@@ -262,7 +262,11 @@ html {
 }
 
 /* media queries */
-
+@media (min-width: 768px) {
+  .illustration1 {
+    padding: 0 50px;
+  }
+}
 @media (max-width: 970px) {
   .toggle-button {
     display: flex;
@@ -277,6 +281,9 @@ html {
 @media (max-width: 768px) {
   .footer-section {
     flex-direction: column;
+  }
+  .product-services-page {
+    margin-left: -2rem;
   }
 }
 
